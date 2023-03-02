@@ -6,7 +6,7 @@ import { Fragment, useState } from "react";
 import Sidebar from "../Sidebar";
 
 export default function MobileMenu() {
-  let [isOpen, setIsOpen] = useState(true);
+  let [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
     setIsOpen(false);
