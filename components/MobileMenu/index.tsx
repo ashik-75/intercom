@@ -17,7 +17,7 @@ export default function MobileMenu() {
   }
 
   return (
-    <div>
+    <div className="mr-2">
       <button onClick={openModal}>
         <Menu className="h-6 w-6" />
       </button>

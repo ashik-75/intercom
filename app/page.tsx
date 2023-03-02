@@ -15,7 +15,7 @@ function Homepage() {
             <MobileMenu />
           </div>
         </div>
-        <div className="flex-1 bg-gradient-to-b from-pink-700  to-purple-900 p-5">
+        <div className="flex-1 bg-gradient-to-b from-pink-700  to-purple-900 p-2 md:p-5">
           <div className="bg-white rounded-lg h-full grid grid-cols-12 divide-x">
             <div className="hidden md:block md:col-span-3 p-5">
               <Sidebar />
