@@ -1,8 +1,8 @@
 "use client";
 
 import {
-  AlbumIcon,
   LayoutDashboard,
+  Library,
   ListMusic,
   LucideIcon,
   Mic2,
@@ -61,7 +61,7 @@ function Sidebar() {
           <SidebarMenu Icon={Music2} text="Songs" />
           <SidebarMenu Icon={User} text="Made for You" />
           <SidebarMenu Icon={Mic2} text="Artist" />
-          <SidebarMenu Icon={AlbumIcon} text="Albums" />
+          <SidebarMenu Icon={Library} text="Albums" />
         </div>
       </div>
       <div className="space-y-2 ">
