@@ -1,4 +1,3 @@
-import Header from "@/components/Header/page";
 import "./globals.css";
 
 export const metadata = {
@@ -13,9 +12,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-slate-900 text-white">
-        <Header />
-        <main className="max-w-7xl mx-auto px-5">{children}</main>
+      <body>
+        <main>{children}</main>
       </body>
     </html>
   );
